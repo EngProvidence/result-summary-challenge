@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result-summarypage-challenge</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <style>
+        .div1 {
+            background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+            color: white;
+        }
+        p{color: hsl(241, 100%, 89%);
+         }
+    .btn{background-color: hsl(224, 30%, 27%);}
+    .btn:hover{background-color: hsl(224, 30%, 27%);}
+    .btn:active{background-color:hsl(252, 100%, 67%)!important;}     
+.react{ background-color:hsl(0, 73%, 97%);}
+.memory{ background-color:hsl(39, 59%, 94%);}
+.verbal{ background-color:hsl(166, 76%, 93%);}
+.visual{ background-color:hsl(234, 77%, 88%);}
+span{color:  hsl(223, 3%, 53%);}
+        .circle {
+            background: linear-gradient(rgb(102, 92, 130), hsla(241, 72%, 46%, 0));
+        }
+
+.main{width: 50%;}
+@media only screen and (max-width:700px) {
+    .main{width: 98%;}   
+}
+@media screen and (min-width:451px)and (max-width:750px) {
+    .main{width: 68%;}   
+}
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row shadow mt-5 border rounded-4 mx-auto main">
+            <div class="col-lg-6 col-sm-12 rounded-4 text-center p-3 border div1">
+                <p>Your Result</p>
+                <div class="rounded-circle w-50 mx-auto circle p-3">
+                    <h2>76</h2>
+                    <p>of 100</p>
+                </div>
+                <h2>Great</h2>
+                <p>You scored higher than 65% of the people who have taken these tests. </p>
+
+            </div>
+            <div class="col-lg-6 col-sm-12 mx-auto p-4 ">
+                <h6>summary</h6>
+                <div class="row react border rounded-2 mt-2 pt-2 ">
+                    <div class="col-2"> <img src="assets/images/icon-reaction.svg" alt="rct"></div>
+                    <div class="col-4 ">
+                        <p style="color:hsl(0, 100%, 67%) ">Reaction</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-4">80<span>/100</span></div>
+                </div>
+                <div class="row memory border rounded-2 mt-2 pt-2">
+                    <div class="col-2"> <img src="assets/images/icon-memory.svg" alt="mmr"></div>
+                    <div class="col-4 ">
+                        <p style="color:hsl(39, 100%, 56%); ;">Memory</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-4">92<span>/100</span></div>
+                </div>
+                <div class="row verbal border rounded-2 mt-2 pt-2">
+                    <div class="col-2"> <img src="assets/images/icon-verbal.svg" alt="vbl"></div>
+                    <div class="col-4 ">
+                        <p style="color:hsl(166, 100%, 37%) ;">Verbal</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-4">61<span>/100</span></div>
+                </div>
+                <div class="row visual border rounded-2 mt-2 pt-2">
+                    <div class="col-2"> <img src="assets/images/icon-visual.svg" alt="vsl"></div>
+                    <div class="col-4 ">
+                        <p style="color:hsl(234, 85%, 45%) ;">Visual</p>
+                    </div>
+                    <div class="col-2"></div>
+                    <div class="col-4">72<span>/100</span></div>
+                </div>
+<input type="button" value="continue" class="rounded-5 mt-2 px-5  btn text-light" style="margin-left: 15%;">
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
